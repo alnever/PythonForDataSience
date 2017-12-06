@@ -15,6 +15,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PDS_Dictionaries", "PDS_Dic
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PDS_Pandas", "PDS_Pandas\PDS_Pandas.pyproj", "{B8C08877-C088-4A6B-A0D1-8306DEE7165C}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PDS_HackerStatistics", "PDS_HackerStatistics\PDS_HackerStatistics.pyproj", "{8640D9A3-CED4-46BF-B975-E52AD689A217}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,8 @@ Global
 		{9F7FCB25-C2EB-46AC-8C6D-EC80D84B575B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8C08877-C088-4A6B-A0D1-8306DEE7165C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8C08877-C088-4A6B-A0D1-8306DEE7165C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8640D9A3-CED4-46BF-B975-E52AD689A217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8640D9A3-CED4-46BF-B975-E52AD689A217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
