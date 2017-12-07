@@ -12,6 +12,8 @@
     <OutputPath>.</OutputPath>
     <Name>PDS_TwitterLanguages</Name>
     <RootNamespace>PDS_TwitterLanguages</RootNamespace>
+    <InterpreterId>{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +24,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CountEntries.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PDS_TwitterLanguages.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -17,6 +17,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PDS_Pandas", "PDS_Pandas\PD
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PDS_HackerStatistics", "PDS_HackerStatistics\PDS_HackerStatistics.pyproj", "{8640D9A3-CED4-46BF-B975-E52AD689A217}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PDS_TwitterLanguages", "PDS_TwitterLanguages\PDS_TwitterLanguages.pyproj", "{22C9D875-4CAD-420D-B3F1-D6ADED30245B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,8 @@ Global
 		{B8C08877-C088-4A6B-A0D1-8306DEE7165C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8640D9A3-CED4-46BF-B975-E52AD689A217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8640D9A3-CED4-46BF-B975-E52AD689A217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C9D875-4CAD-420D-B3F1-D6ADED30245B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C9D875-4CAD-420D-B3F1-D6ADED30245B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
