@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>87330b3b-ce77-4f2a-81bc-7ce594584c94</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>using_sqlite.py</StartupFile>
+    <StartupFile>import_url_csv_and_plot.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,9 @@
     <Compile Include="import_flat_file_txt.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="import_from_web.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="import_hdf5.py">
       <SubType>Code</SubType>
     </Compile>
@@ -43,7 +46,13 @@
     <Compile Include="import_stata.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="import_url_csv_and_plot.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PDS_ImportingData_1.py" />
+    <Compile Include="sqlite_fetchrows.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="using_sqlite.py">
       <SubType>Code</SubType>
     </Compile>
