@@ -5,13 +5,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6b986a94-9b95-48c2-9348-626ce02df0ed</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PDS_Iterations_CaseStudy.py</StartupFile>
+    <StartupFile>CaseStudy_part2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PDS_Iterations_CaseStudy</Name>
     <RootNamespace>PDS_Iterations_CaseStudy</RootNamespace>
+    <InterpreterId>{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +25,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CaseStudy_part2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PDS_Iterations_CaseStudy.py" />
+    <Compile Include="Population.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Population_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}\3.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="world_ind_pop_data.csv" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

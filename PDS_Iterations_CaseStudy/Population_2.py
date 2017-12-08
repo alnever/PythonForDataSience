@@ -1,3 +1,7 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
 # Define plot_pop()
 def plot_pop(filename, country_code):
 
@@ -30,7 +34,7 @@ def plot_pop(filename, country_code):
     plt.show()
 
 # Set the filename: fn
-fn = 'ind_pop_data.csv'
+fn = 'world_ind_pop_data.csv'
 
 # Call plot_pop for country code 'CEB'
 plot_pop(fn, 'CEB')
