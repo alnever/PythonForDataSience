@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>87330b3b-ce77-4f2a-81bc-7ce594584c94</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>using_sqlite.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PDS_ImportingData_1</Name>
+    <RootNamespace>PDS_ImportingData_1</RootNamespace>
+    <InterpreterId>{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="import_excel.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="import_flat_file_txt.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="import_hdf5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="import_matlab.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="import_sas.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="import_stata.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PDS_ImportingData_1.py" />
+    <Compile Include="using_sqlite.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\battledeath.xlsx" />
+    <Content Include="data\Chinook.sqlite" />
+    <Content Include="data\disarea.dta" />
+    <Content Include="data\ja_data2.mat" />
+    <Content Include="data\L-L1_LOSC_4_V1-1126259446-32.hdf5" />
+    <Content Include="data\mnist_kaggle_some_rows.csv" />
+    <Content Include="data\sales.sas7bdat" />
+    <Content Include="data\seaslug.txt" />
+    <Content Include="data\titanic_sub.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}\3.5" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
