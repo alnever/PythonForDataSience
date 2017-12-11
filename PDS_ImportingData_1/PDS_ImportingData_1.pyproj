@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>87330b3b-ce77-4f2a-81bc-7ce594584c94</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>import_url_csv_and_plot.py</StartupFile>
+    <StartupFile>retriving_data_from_twitter_api.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,9 @@
     <Compile Include="import_from_web.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="import_from_web_xls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="import_hdf5.py">
       <SubType>Code</SubType>
     </Compile>
@@ -50,7 +53,22 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PDS_ImportingData_1.py" />
+    <Compile Include="retriving_data_from_api.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="retriving_data_from_twitter_api.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scrapping_from_the_web.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sqlite_fetchrows.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tweeter_listener.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tweets_handling.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="using_sqlite.py">
@@ -72,6 +90,7 @@
     <Folder Include="data\" />
   </ItemGroup>
   <ItemGroup>
+    <InterpreterReference Include="{984cd788-ba0b-4e8a-b3fe-c1b0aca07a19}\3.5" />
     <InterpreterReference Include="{e834afb3-0aba-4f7b-87c9-c5ea4d556dd2}\3.5" />
   </ItemGroup>
   <PropertyGroup>
